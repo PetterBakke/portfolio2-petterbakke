@@ -1,7 +1,6 @@
 import React from "react";
-import SEM from "../../Assets/semester.png";
-import JSF from "../../Assets/jsframeworks.png";
-import PRO from "../../Assets/project-exam2.png";
+import TODO from "../../Assets/fullpage-todo-app.png";
+
 import CAL from "../../Assets/calculator.png";
 import RWE from "../../Assets/react-weather.png";
 
@@ -14,34 +13,15 @@ function Portfolio() {
       <div className="container portfolio-container">
         <article className="portfolio-item">
           <div className="portfolio-item-image">
-            <img src={SEM} alt="semester project 2" />
+            <img src={TODO} alt="Todo app" />
           </div>
-          <h3>This is my semester Project 2</h3>
+          <h3>This is my todo app</h3>
           <div className="portfolio-item cta">
-            <a href="https://github.com/PetterBakke/semester-project2-Petter-Bakke" className="btn">Github repo</a>
-            <a href="https://semester-project2-petter-bakke.vercel.app/" className="btn btn-primary">Live site</a>
+            <a href="https://github.com/PetterBakke/todo-app-petter-bakke" className="btn">Github repo</a>
+            <a href="https://todo-app-chi-flax.vercel.app/" className="btn btn-primary">Live site</a>
           </div>
         </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={JSF} alt="JavaScript frameworks CA" />
-          </div>
-          <h3>This is my JavaScript framework CA</h3>
-          <div className="portfolio-item cta">
-            <a href="https://github.com/PetterBakke/jsframeworks_ca-Petter-Bakke" className="btn">Github repo</a>
-            <a href="https://jsframeworks-ca-petter-bakke.vercel.app/" className="btn btn-primary">Live site</a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={PRO} alt="project exam 2" />
-          </div>
-          <h3>This is my Project exam 2</h3>
-          <div className="portfolio-item cta">
-            <a href="https://github.com/PetterBakke/project-exam-2-petter-bakke" className="btn">Github repo</a>
-            <a href="https://project-exam-2-petter-bakke.vercel.app/" className="btn btn-primary">Live site</a>
-          </div>
-        </article>
+
         <article className="portfolio-item">
           <div className="portfolio-item-image">
             <img src={CAL} alt="calculator project" />

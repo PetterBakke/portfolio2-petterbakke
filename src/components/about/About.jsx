@@ -21,7 +21,7 @@ function About() {
           </article>
         </div>
         <p></p>
-        <a href="#contact" className='btn btn-primary'>Let's talk</a>
+       
       </div>
     </div>
   </section>;
