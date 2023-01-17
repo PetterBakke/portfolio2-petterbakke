@@ -1,8 +1,8 @@
 import React from "react";
 import TODO from "../../Assets/fullpage-todo-app.png";
-
 import CAL from "../../Assets/calculator.png";
 import RWE from "../../Assets/react-weather.png";
+import HAN from "../../Assets/hangman-game.png";
 
 function Portfolio() {
   return (
@@ -40,6 +40,16 @@ function Portfolio() {
           <div className="portfolio-item cta">
             <a href="https://github.com/PetterBakke/react-weather-app" className="btn">Github repo</a>
             <a href="https://react-weather-app-psi-nine.vercel.app/" className="btn btn-primary">Live site</a>
+          </div>
+        </article>
+        <article className="portfolio-item">
+          <div className="portfolio-item-image">
+            <img src={HAN} alt="Hangman game project" />
+          </div>
+          <h3>This is my Hangman game</h3>
+          <div className="portfolio-item cta">
+            <a href="https://github.com/PetterBakke/hangman-game" className="btn">Github repo</a>
+            <a href="https://bejewelled-cat-b867f1.netlify.app/" className="btn btn-primary">Live site</a>
           </div>
         </article>
       </div>
